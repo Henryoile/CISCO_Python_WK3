@@ -2,6 +2,7 @@
 n = int(input("Enter a number: "))
 print(n >= 100)
 
+# 3.1.6   LAB   Variables ‒ Questions and answers
 
 # Read three numbers
 number1 = int(input("Enter the first number: "))
@@ -24,3 +25,23 @@ if number3 > largest_number:
 
 # Print the results
 print("The largest number is: ", largest_number)
+
+
+
+
+# 3.1.10   LAB   Comparison operators and conditional execution
+
+# Read plant name
+name = input("Enter plant name: ")
+
+# Check the right plant name which is "Spythophyllum" with capital "S"
+if name == "Spythophyllum":
+    print("Spythophyllum is the best plant ever!")
+
+# Check if the condition for capital "S" is not met.
+elif name == "spythophyllum":
+    print("No, I want a big Spythophyllum!")
+
+# Anything else, echo the input back to the user
+else:
+    print("Spyhtophyllum! Not", name + "!")
