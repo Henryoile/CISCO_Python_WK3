@@ -61,3 +61,27 @@ if tax < 0.0:
 tax = round(tax, 0)
 print("The tax is:", tax, "Shillings")
 
+
+# 3.2.4   LAB   Guess the secret number
+secret_number = 777
+
+print(
+"""
++================================+
+| Welcome to my game, muggle!    |
+| Enter an integer number        |
+| and guess what number I've     |
+| picked for you.                |
+| So, what is the secret number? |
++================================+
+""")
+
+guess = int(input("Enter a number: "))
+
+while guess != secret_number:
+    print("Ha ha! you are stuck in my loop!")
+    guess = int(input("Enter a number: "))
+    
+print(guess)
+print("Well done, muggle! you are free now.")
+
