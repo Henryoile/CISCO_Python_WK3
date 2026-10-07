@@ -85,3 +85,11 @@ while guess != secret_number:
 print(guess)
 print("Well done, muggle! you are free now.")
 
+# 3.2.7   LAB   Essentials of the for loop – counting mississippily
+import time
+for i in range (1, 6):
+    print(i, "mississippi")
+    time.sleep(1)
+
+print("Ready or not, here I come!")
+
