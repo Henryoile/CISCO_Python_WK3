@@ -102,3 +102,28 @@ while True:
          print("You've successfully left the loop.")
          break
 
+
+# 3.2.10   LAB   The continue statement – the Ugly Vowel Eater
+
+# Ask for the word and convert it to uppercase
+user_word = input("Enter a word: ")
+user_word = user_word.upper()
+
+# Loop through each letter in the word
+for letter in user_word:
+     if letter == "A":
+          continue
+     elif letter == "E":
+          continue
+     elif letter == "I":
+          continue
+     elif letter == "O":
+          continue
+     elif letter == "U":
+          continue
+     else:
+        print(letter)
+
+
+
+
