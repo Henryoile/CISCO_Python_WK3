@@ -93,3 +93,12 @@ for i in range (1, 6):
 
 print("Ready or not, here I come!")
 
+
+# 3.2.9   LAB   The break statement – Stuck in a loop
+
+while True:
+    word = input("Enter a word: ")
+    if word == "chupacabra":
+         print("You've successfully left the loop.")
+         break
+
