@@ -185,6 +185,27 @@ print("The list with unique elements only:")
 print(my_list)
 
 
+# 3.7.2 Two-dimensional arrays
+EMPTY = "-"
+ROOK = "R"
+KNIGHT = "K"
+PAWN = "P"
+
+board = [[EMPTY for i in range(8)] for j in range(8)]
+
+board[0][0] = ROOK
+board[0][7] = ROOK
+board[7][0] = ROOK
+board[7][7] = ROOK
+board[4][2] = KNIGHT
+board[3][4] = PAWN
+
+for row in board:
+    print(row)
+
+
+
+
 
 
 
