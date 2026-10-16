@@ -171,6 +171,20 @@ print("\nSorted: ")
 print(my_list)
 
 
+# 3.6.6   LAB   Operating with lists ‒ basics
+my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+
+unique = []
+for number in my_list:
+    if number not in unique:
+        unique.append(number)
+    
+my_list = unique
+
+print("The list with unique elements only:")
+print(my_list)
+
+
 
 
 
